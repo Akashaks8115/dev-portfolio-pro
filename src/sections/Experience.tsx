@@ -2,7 +2,7 @@ import { profile } from "../data/profile";
 
 const Experience = () => {
     return (
-        <section id="experience" className="py-20 px-6 max-w-7xl mx-auto">
+        <section id="experience" className="py-20 px-6 max-w-7xl mx-auto reveal-on-scroll">
             {/* Header */}
             <div className="flex items-center gap-4 mb-16">
                 <span className="text-primary-500 font-mono text-xl font-medium">04</span>

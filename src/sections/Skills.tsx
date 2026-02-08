@@ -2,7 +2,7 @@ import { skills } from "../data/skills";
 
 const Skills = () => {
     return (
-        <section id="skills" className="py-20 px-6 max-w-7xl mx-auto">
+        <section id="skills" className="py-20 px-6 max-w-7xl mx-auto reveal-on-scroll">
             {/* Header */}
             <div className="flex items-center gap-4 mb-16">
                 <span className="text-primary-500 font-mono text-xl font-medium">02</span>

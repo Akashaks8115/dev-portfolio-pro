@@ -2,7 +2,7 @@ import { profile } from "../data/profile";
 
 const Hero = () => {
     return (
-        <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden pt-20">
+        <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden pt-20 reveal-on-scroll">
             {/* Background decoration */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-primary-500/20 rounded-full blur-[100px] -z-10" />
 

@@ -2,7 +2,7 @@ import { projects } from "../data/projects";
 
 const Projects = () => {
     return (
-        <section id="projects" className="py-20 px-6 max-w-7xl mx-auto">
+        <section id="projects" className="py-20 px-6 max-w-7xl mx-auto reveal-on-scroll">
             {/* Header Style "03 // Featured Projects" */}
             <div className="flex items-center gap-4 mb-12">
                 <span className="text-primary-500 font-mono text-xl font-medium">03</span>

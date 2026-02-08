@@ -34,8 +34,13 @@ const Navbar = () => {
         >
             <div className="max-w-7xl mx-auto px-6 flex items-center justify-between relative z-50">
                 {/* Logo */}
-                <a href="#" className="text-2xl font-bold tracking-tighter text-white">
-                    AM<span className="text-primary-500">.</span>
+                {/* Logo */}
+                <a href="#" className="flex items-center gap-2">
+                    <img
+                        src="https://res.cloudinary.com/dahgyycv1/image/upload/v1770568497/ANDROID_DEVELOPER_vfajru.png"
+                        alt="Logo"
+                        className="h-10 w-auto object-contain"
+                    />
                 </a>
 
                 {/* Desktop Links */}

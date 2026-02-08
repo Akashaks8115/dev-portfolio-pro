@@ -5,7 +5,6 @@ export const skills = {
     "State Management (Provider)",
     "REST API Integration",
     "Firebase Integration",
-    "Payment Gateway Integration (Razorpay, PhonePe, Easebuzz)",
     "Push Notifications (FCM)",
     "Google Maps & Location Services",
     "Image & File Upload",
@@ -26,8 +25,15 @@ export const skills = {
     "Webhook Handling (Payments)",
     "Node.js (Basic)",
     "MongoDB",
-  ]
-  ,
+  ],
+
+  integrations: [
+    "Payment Gateway Integration (Razorpay, PhonePe, Easebuzz)",
+    "ZEGOCLOUD (Real-time Audio / Video Calling)",
+    "Firebase Services",
+    "Google Maps SDK",
+    "Third-party SDK Integration",
+  ],
 
   tools: [
     "Git & GitHub",
@@ -38,6 +44,5 @@ export const skills = {
     "Google Cloud Console",
     "Play Console",
     "Figma (Design Handoff)",
-  ]
-
+  ],
 };

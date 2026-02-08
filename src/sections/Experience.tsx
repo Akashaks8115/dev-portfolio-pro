@@ -1,4 +1,5 @@
 import { profile } from "../data/profile";
+import ExperienceTimer from "../components/ExperienceTimer";
 
 const Experience = () => {
     return (
@@ -26,9 +27,12 @@ const Experience = () => {
                             <a href="#" className="text-primary-400 hover:text-primary-300 transition-colors text-sm font-medium mb-1 block">
                                 Ether Softex
                             </a>
-                            <p className="text-gray-500 text-xs uppercase tracking-wider mb-4">
-                                January 2024 - Present <span className="mx-2">•</span> Shivpur, Varanasi
-                            </p>
+                            <div className="flex flex-col mb-4">
+                                <p className="text-gray-500 text-xs uppercase tracking-wider">
+                                    January 2024 - Present <span className="mx-2">•</span> Shivpur, Varanasi
+                                </p>
+                                <ExperienceTimer startDate="2024-01-04" />
+                            </div>
                             <p className="text-gray-400 leading-relaxed text-sm group-hover:text-gray-300 transition-colors">
                                 Developing and maintaining Flutter applications, integrating REST APIs and Firebase services, and deploying apps to the Play Store. Focused on building scalable and performant mobile solutions.
                             </p>

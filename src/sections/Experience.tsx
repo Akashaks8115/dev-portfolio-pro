@@ -51,7 +51,7 @@ const Experience = () => {
                         {profile.education?.map((edu, index) => (
                             <div key={index} className="p-6 rounded-xl bg-gradient-to-br from-[#111827] to-[#0f172a] hover:from-[#111827] hover:to-[#1e1b4b] border border-white/5 hover:border-primary-500/30 transition-all duration-300 hover:shadow-xl cursor-default group">
                                 <h3 className="text-lg font-bold text-white mb-2 group-hover:text-primary-400 transition-colors">{edu.degree}</h3>
-                                <p className="text-gray-400 text-sm mb-1">{edu.school}</p>
+                                <p className="text-gray-400 text-sm mb-1">{edu.institution}</p>
                                 <span className="inline-block px-2 py-1 rounded bg-white/5 text-gray-500 text-xs font-medium border border-white/5">
                                     {edu.period}
                                 </span>

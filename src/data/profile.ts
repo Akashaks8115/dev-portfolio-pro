@@ -12,8 +12,19 @@ export const profile = {
     education: [
         {
             degree: "Bachelor of Computer Applications (BCA)",
-            school: "Mahatma Gandhi Kashi Vidyapith University, Varanasi",
+            institution: "Mahatma Gandhi Kashi Vidyapith University, Varanasi",
             period: "2020 - 2023",
         },
-    ],
+        // {
+        //     degree: "Senior Secondary (12th)",
+        //     institution: "Maha Bodhi Inter College, Sarnath, Varanasi (UP Board)",
+        //     period: "2020",
+        // },
+        // {
+        //     degree: "Secondary (10th)",
+        //     institution: "Dharma Chakra Vihar Inter College, Sarnath, Varanasi (UP Board)",
+        //     period: "2018",
+        // },
+    ]
+
 };

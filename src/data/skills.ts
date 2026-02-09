@@ -30,6 +30,8 @@ export const skills = {
   integrations: [
     "Payment Gateway Integration (Razorpay, PhonePe, Easebuzz)",
     "ZEGOCLOUD (Real-time Audio / Video Calling)",
+    "Google AdMob (Ads & Monetization)",
+    "Cloudinary (Media Upload & Management via API)",
     "Firebase Services",
     "Google Maps SDK",
     "Third-party SDK Integration",
